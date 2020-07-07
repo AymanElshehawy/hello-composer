@@ -1,0 +1,21 @@
+{
+  "name": "AymanZayed/hello-pack",
+  "type": "library",
+  "description": "How to make packages",
+  "keywords": ["pack", "learn"],
+  "homepage": "https://github.com/AymanElshehawy",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ayman Zayed Ali",
+      "email": "elshehawy.m92@gmail.com",
+      "homepage": "https://github.com/AymanElshehawy",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"Base\\HelloWorld\\": "src/"}
+  },
+  "require": {}
+}
